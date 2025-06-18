@@ -1,4 +1,4 @@
-import { Link } from 'expo-router'
+import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
@@ -16,10 +16,10 @@ export default function Welcome() {
           ThayMath List
         </Text>
         <Text style={styles.text}>
-          Monte sua lista de compras e não esqueça mais
-          o que precisa comprar ao sair de casa!!!
+          Monte sua lista de metas e não esqueça mais
+          de fazer o que agrada ao nosso Senhor!!!
         </Text>
-        <Link style={styles.button} href={"/home"}>
+        <Link style={styles.button} href={"./app/home"}>
           <Text style={styles.buttonText}>Acessar</Text>
         </Link>
       </View>
@@ -32,7 +32,7 @@ export default function Welcome() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#FF85A1',
   },
   containerImage: {
     flex: 2,
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   button: {
     position: 'absolute',
     bottom: '10%',
-    backgroundColor: '#000',
+    backgroundColor: '#d4a5f4',
     alignSelf: 'center',
     borderRadius: 50,
     paddingVertical: 15,
@@ -76,6 +76,9 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 22,
     color: '#fff',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textShadowColor: '#000',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 4,
   }
 });

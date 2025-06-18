@@ -28,7 +28,7 @@ export default function ItemList({ item, markItem, unmarkItem, removeItem }) {
 
 const styles = StyleSheet.create({
     itemList: {
-        backgroundColor: '#000000c0',
+        backgroundColor: '#D4A5F480',
         padding: 15,
         borderRadius: 7,
         borderWidth: 2,
@@ -36,7 +36,11 @@ const styles = StyleSheet.create({
         marginVertical: 5,
         flexDirection: 'row',
         justifyContent:'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        color: 'ffffff',
+        textShadowColor: '#000',
+      textShadowOffset: { width: 1, height: 1 },
+      textShadowRadius: 4,
     },
     itemToBuy: {
         flex: 1,
@@ -58,7 +62,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: 10,
-        backgroundColor: 'darkgreen'
+        backgroundColor: '#C084FC'
 
     }
 })

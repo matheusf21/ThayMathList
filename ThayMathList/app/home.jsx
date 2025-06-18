@@ -163,15 +163,19 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#D4A5F480',
+    backgroundColor: '#FF85A180',
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
   },
   title: {
     fontSize: 26,
     fontWeight: 'bold',
-    color: '#fff'
+    color: '#fff',
+    textShadowColor: '#000',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 4,
   },
+  
   footer: {
     position: 'absolute',
     bottom: 0,
@@ -184,7 +188,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 30,
   },
   inputContainer: {
-    backgroundColor: "#FF85A1",
+    backgroundColor: "#ffffff",
     elevation: 40,
     flex: 1,
     height: 50,
@@ -196,7 +200,7 @@ const styles = StyleSheet.create({
   iconContainer: {
     height: 50,
     width: 50,
-    backgroundColor: '#FF85A1',
+    backgroundColor: '#D4A5F480',
     borderRadius: 25,
     elevation: 40,
     justifyContent: 'center',

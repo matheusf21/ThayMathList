@@ -1,5 +1,5 @@
 import { registerRootComponent } from 'expo';
-import Home from './app/home';
+import Home from './app/index';
 export default function App() {
   return <Home />;
 }
