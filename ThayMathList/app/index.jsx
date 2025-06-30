@@ -21,7 +21,7 @@ export default function Welcome() {
           Monte sua lista de metas e não esqueça mais
           de fazer o que agrada ao nosso Senhor!!!
         </Text>
-        <Link style={styles.button} href={"./app/home"}>
+        <Link style={styles.button} href={"home"}>
           <Text style={styles.buttonText}>Acessar</Text>
         </Link>
       </View>

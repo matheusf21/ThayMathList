@@ -93,6 +93,7 @@ export default function Home() {
   }
 
   const removeAll = () => {
+    console.log("Oiiiiii")
     Alert.alert(
       "Limpar Lista?", "Confirma a exclusão de todos as metas?",
       [

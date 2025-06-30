@@ -5,7 +5,7 @@ import { Ionicons } from '@expo/vector-icons'
 export default function ItemList({ item, markItem, unmarkItem, removeItem }) {
   return (
     <View style={styles.itemList}>
-    <Text style={styles.bought ? styles.itemBought :styles.itemToBuy}
+    <Text style={item.bought ? styles.itemBought :styles.itemToBuy}
     >{item?.name}
     </Text>
     {!item?.bought ? (
